@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>计算机科研论文实验结果展示</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Microsoft Yahei", sans-serif;
+        }
+        body {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            line-height: 1.8;
+            color: #333;
+            background-color: #f9fafb;
+        }
+        .title {
+            font-size: 28px;
+            font-weight: bold;
+            text-align: center;
+            margin-bottom: 15px;
+            color: #222;
+        }
+        .author {
+            text-align: center;
+            font-size: 16px;
+            color: #666;
+            margin-bottom: 40px;
+        }
+        .section {
+            margin-bottom: 50px;
+            background: #fff;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 2px 10px #eee;
+        }
+        .section h2 {
+            font-size: 20px;
+            margin-bottom: 20px;
+            border-left: 4px solid #2563eb;
+            padding-left: 12px;
+        }
+        .abstract {
+            text-align: justify;
+            font-size: 15px;
+            text-indent: 2em;
+        }
+        .gif-box {
+            margin-top: 20px;
+            text-align: center;
+        }
+        .gif-box img {
+            max-width: 100%;
+            border-radius: 8px;
+            margin: 10px 0;
+            box-shadow: 0 2px 8px #ddd;
+        }
+        .link-group {
+            margin-top: 20px;
+            text-align: center;
+        }
+        .link-group a {
+            display: inline-block;
+            margin: 0 10px;
+            padding: 8px 20px;
+            background: #2563eb;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 6px;
+        }
+        .link-group a:hover {
+            background: #1d4ed8;
+        }
+    </style>
+</head>
+<body>
+    <!-- 论文标题与作者 -->
+    <div class="title">你的计算机科研论文题目</div>
+    <div class="author">作者 | 院校 / 课题组</div>
+
+    <!-- 摘要部分 -->
+    <div class="section">
+        <h2>论文摘要</h2>
+        <p class="abstract">
+            在此粘贴你的论文中文摘要：针对现有计算机算法存在的精度不足、推理效率低、泛化性差等问题，本文提出一种新型优化方法。通过优化网络结构、改进算法策略，简化冗余计算模块，强化模型特征提取能力。基于公开标准数据集完成多组对比实验、消融实验与鲁棒性实验，结果表明，本文方法相较于传统基线模型，各项核心指标显著提升，计算开销更低，复杂场景适配性更强，具备较高的学术价值与工程应用前景。
+        </p>
+    </div>
+
+    <!-- 核心实验结果GIF展示 -->
+    <div class="section">
+        <h2>实验结果可视化展示</h2>
+        <p style="text-align:center;color:#666;margin-bottom:20px;">本文方法与传统方法对比实验、消融实验动态效果展示</p>
+        <div class="gif-box">
+            <!-- 替换为你的GIF图片路径，可新增多张 -->
+            <img src="gif/experiment1.gif" alt="对比实验结果">
+            <img src="gif/experiment2.gif" alt="消融实验结果">
+        </div>
+    </div>
+
+    <!-- 资源链接 -->
+    <div class="section">
+        <h2>相关资源</h2>
+        <div class="link-group">
+            <a href="你的论文PDF链接" target="_blank">论文PDF</a>
+            <a href="你的GitHub代码链接" target="_blank">项目代码</a>
+            <a href="你的完整实验视频链接" target="_blank">完整演示视频</a>
+        </div>
+    </div>
+</body>
+</html>
